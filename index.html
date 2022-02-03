@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <main>
+        <h1>Dice Game</h1>
+        <div>
+            <div>
+                <img id="dice-image" src="assets/images/dice1.png">
+            </div>
+            <div class="controls">
+                <button id="roll">Roll The Dice</button>
+                <button id="clear">Clear Scoreboard</button> <!--Buttons end-->
+            </div>
+            <div class="message-container">
+                <h3 id="message">Let's Get Rolling</h3> <!--Message Container end-->
+            </div>
+            <hr>
+            <div>
+                <h2>Scoreboard</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>1</th>
+                            <th>2</th>
+                            <th>3</th>
+                            <th>4</th>
+                            <th>5</th>
+                            <th>6</th> <!--end table headers-->
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="table-amount">0</td>
+                            <td class="table-amount">0</td>
+                            <td class="table-amount">0</td>
+                            <td class="table-amount">0</td>
+                            <td class="table-amount">0</td>
+                            <td class="table-amount">0</td>
+                        </tr>
+                        <tr>
+                            <td class="table-percent">0%</td>
+                            <td class="table-percent">0%</td>
+                            <td class="table-percent">0%</td>
+                            <td class="table-percent">0%</td>
+                            <td class="table-percent">0%</td>
+                            <td class="table-percent">0%</td>
+                        </tr>
+                    </tbody> <!--end table body-->
+                </table> <!--end table-->
+            </div>
+        </div>
+    </main>
+    <script src="assets/script.js"></script>
+</body>
+</html>
